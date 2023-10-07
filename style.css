@@ -396,3 +396,89 @@ header {
   gap: 16px;
   display: flex;
 }
+
+.contact-2 {
+  background-color: #6070ff;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  height: 800px;
+  border-radius: 80px 0 0 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-2 h1 {
+  color: white;
+  font-size: 40px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  line-height: 52px;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+.contact-2 p {
+  color: #ebebff;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  line-height: 28px;
+  word-wrap: break-word;
+  width: 327px;
+  height: 137px;
+  flex-shrink: 0;
+  text-align: center;
+}
+
+form input {
+  width: 273px;
+  height: 15px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid var(--base-100, #cfd8dc);
+  background: var(--mono-white, #fff);
+  color: var(--neutral-n-800, #172b4d);
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 12px 0;
+  padding: 15px 38px 15px 16px;
+}
+
+form button {
+  display: inline-flex;
+  padding: 12px 16px;
+  align-items: center;
+  border-radius: 8px;
+  background: var(--neutrals-n-0, #fff);
+  color: var(--primary-b-400, #6070ff);
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.51px;
+  outline: none;
+  border: none;
+}
+
+form textarea {
+  width: 272px;
+  height: 170px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid var(--base-100, #cfd8dc);
+  background: var(--mono-white, #fff);
+  color: var(--neutrals-n-60, #b3bac5);
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 10px 0;
+  padding: 15px 38px 15px 16px;
+}
