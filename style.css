@@ -1,18 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 body {
-  width: 375px;
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+  
 }
 header {
-  width: 100%;
+  width: 90%;
   height: 100%;
   padding-top: 4px;
   padding-bottom: 4px;
   padding-left: 12px;
   padding-right: 24px;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: flex-start;
   gap: 199px;
   display: inline-flex;
+}
+.navbuttons{
+  display: none;
 }
 .logosection {
   align-self: stretch;
@@ -55,10 +60,9 @@ header {
   position: absolute;
 }
 .introsection {
-  width: 100%;
+  width: 90%;
   height: 100%;
-  padding-left: 24px;
-  padding-right: 24px;
+  padding-left: 34px;
   padding-top: 114px;
   padding-bottom: 114px;
   flex-direction: column;
@@ -72,7 +76,7 @@ header {
   background-position-y: 30px;
 }
 .name {
-  width: 327px;
+  width: 85%;
   height: 150px;
   color: #172b4d;
   font-size: 40px;
@@ -81,9 +85,18 @@ header {
   line-height: 52px;
   word-wrap: break-word;
 }
+.aboutname{
+  width: 92%;
+  height: 85px;
+  color: #172b4d;
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  line-height: 52px;
+  word-wrap: break-word;
+}
 .introbreif {
-  width: 327px;
-  height: 146px;
+  width: 85%;
   color: #344563;
   font-size: 16px;
   font-family: "Poppins", sans-serif;
@@ -91,13 +104,15 @@ header {
   line-height: 24px;
   word-wrap: break-word;
 }
-.connect {
+.connect,.aboutconnect {
   color: #7f8cff;
   font-size: 16px;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   line-height: 24px;
   word-wrap: break-word;
+  width: 85%;
+  text-align: left;
 }
 
 .dot {
@@ -107,9 +122,9 @@ header {
   border-radius: 9999px;
 }
 .cardsection {
+  width: 90%;
   height: 100%;
-  padding-left: 24px;
-  padding-right: 24px;
+  padding-left: 12px;
   padding-top: 114px;
   padding-bottom: 114px;
   flex-direction: column;
@@ -117,6 +132,7 @@ header {
   align-items: center;
   gap: 88px;
   display: inline-flex;
+  background-color: #e5e5e5;
 }
 .card {
   padding: 16px;
@@ -129,6 +145,7 @@ header {
   align-items: center;
   gap: 12px;
   display: flex;
+  width: 80%;
 }
 .cardimg {
   width: 295px;
@@ -231,16 +248,15 @@ header {
   word-wrap: break-word;
 }
 .work {
-  width: 100%;
+  width: 90%;
   height: 100%;
   padding-left: 24px;
-  padding-right: 24px;
-  padding-top: 114px;
+  padding-right: 10px;
   padding-bottom: 114px;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  gap: 24px;
+  gap: 90px;
   display: inline-flex;
 }
 .langheading {
@@ -257,12 +273,14 @@ header {
   justify-content: flex-start;
   align-items: center;
   display: flex;
+  width: 95%;
 }
 .lang2 {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   display: flex;
+  width: 100%;
 }
 .lang3 {
   padding-top: 16px;
@@ -273,6 +291,7 @@ header {
   align-items: center;
   gap: 12px;
   display: inline-flex;
+  width: 90%;
 }
 .languagesection {
   padding: 12px;
@@ -281,9 +300,10 @@ header {
   align-items: center;
   gap: 12px;
   display: flex;
+  width: 80%;
 }
 .langscript {
-  width: 303px;
+  width: 100%;
   padding-top: 9px;
   padding-bottom: 9.72px;
   padding-left: 12px;
@@ -303,7 +323,7 @@ header {
   border: 1px white solid;
 }
 .langname {
-  width: 215px;
+  width: 75%;
   height: 24px;
   color: #253858;
   font-size: 15px;
@@ -313,12 +333,12 @@ header {
   word-wrap: break-word;
 }
 .expsection {
-  width: 327px;
+  width: 100%;
   height: 72px;
   position: relative;
 }
 .expname {
-  width: 237px;
+  width: 50%;
   left: 12px;
   top: 24px;
   position: absolute;
@@ -378,10 +398,11 @@ header {
   align-items: flex-start;
   gap: 12px;
   display: flex;
+  width: 85%;
 }
 .aboutdescription {
-  width: 327px;
-  height: 147px;
+  width: 92%;
+  height: 195px;
   color: #344563;
   font-size: 16px;
   font-family: Poppins;
@@ -406,40 +427,45 @@ header {
   border-radius: 80px 0 0 0;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .contact-2 h1 {
   color: white;
   font-size: 40px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   line-height: 52px;
   word-wrap: break-word;
   text-align: center;
+  width: 75%;
 }
 
 .contact-2 p {
   color: #ebebff;
   font-size: 20px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   line-height: 28px;
   word-wrap: break-word;
-  width: 327px;
+  width: 84%;
   height: 137px;
   flex-shrink: 0;
   text-align: center;
 }
 
+form > div {
+  width: 100%;
+}
 form input {
-  width: 273px;
+  width: 80%;
   height: 15px;
   flex-shrink: 0;
   border-radius: 8px;
   border: 1px solid var(--base-100, #cfd8dc);
   background: var(--mono-white, #fff);
   color: var(--neutral-n-800, #172b4d);
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 17px;
   font-style: normal;
   font-weight: 400;
@@ -456,7 +482,7 @@ form button {
   background: var(--neutrals-n-0, #fff);
   color: var(--primary-b-400, #6070ff);
   text-align: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 17px;
   font-style: normal;
   font-weight: 500;
@@ -467,18 +493,211 @@ form button {
 }
 
 form textarea {
-  width: 272px;
+  width: 80%;
   height: 170px;
   flex-shrink: 0;
   border-radius: 8px;
   border: 1px solid var(--base-100, #cfd8dc);
   background: var(--mono-white, #fff);
   color: var(--neutrals-n-60, #b3bac5);
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
   margin: 10px 0;
   padding: 15px 38px 15px 16px;
+}
+
+@media screen and (min-width: 760px) {
+  /* responsiveness----------------------------------------------------------------------------------------------------- */
+
+  body {
+    width: 100%;
+  }
+.navbuttons{
+  display: flex;
+  gap: 50px;
+  padding-top: 10px;
+}
+.navbuttons>div{
+  color: #396df2;
+  font-weight: 100px;
+}
+  header {
+    width: 95%;
+    padding: 0px 0px 0px 0px;
+  }
+  .threelinelogo {
+    display: none;
+  }
+  .threelinelogo > div {
+    display: none;
+  }
+  .threelineimg {
+    display: none;
+    width: 18px;
+    height: 12px;
+    left: 3px;
+    top: 6px;
+    position: absolute;
+  }
+
+  /* header end_____________________________________________________________________________________________________________ */
+
+  .introsection {
+    width: 100%;
+    height: 670px;
+    justify-content: center;
+    align-items: center;
+    height: 846px;
+    padding: 0px 0px;
+    flex-shrink: 0;
+    background-image: url("images/Header.png");
+    background-size: 100%;
+
+  }
+  .name {
+    width: 60%;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 125% */
+    letter-spacing: 0.37px;
+  }
+  .introbreif {
+    width: 60%;
+    height: 146px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+  }
+  .connect {
+    width: 60%;
+    text-align: left;
+  }
+  .introsection > img {
+    float: left;
+    align-items: flex-start;
+  }
+
+  /* introsection end _______________________________________--------------------------------_____________________---------------*/
+
+  .cardsection {
+    width: 100%;
+
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 114px;
+    padding-bottom: 80px;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    gap: 88px;
+    display: inline-flex;
+  }
+
+  .card1,
+  .card3 {
+    width: 80%;
+    height: 360px;
+    padding: 16px;
+    background: white;
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px #dfe1e6 solid;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 12px;
+    display: flex;
+  }
+
+  .card2,
+  .card4 {
+    height: 360px;
+    width: 80%;
+    padding: 16px;
+    background: white;
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px #dfe1e6 solid;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    gap: 12px;
+    display: flex;
+  }
+  .cardDescription {
+    width: 50%;
+  }
+  .cardsubheading,
+  .cardheading,
+  p.canopydescription,
+  .cardheading,
+  div.cardDescription {
+    width: 100%;
+  }
+
+  /* card section end________________________--------------------------_______________________---------------------------- */
+
+  .work {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 50px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 90px;
+    gap: 70px;
+  }
+  .aboutsection {
+    width: 40%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12px;
+    display: flex;
+  }
+  .aboutname {
+    width: 100%;
+    font-size: 40px;
+  }
+  .aboutdescription {
+    width: 100%;
+    height: 125px;
+  }
+  .aboutconnect {
+    width: 100%;
+  }
+  .languagesection {
+    flex-direction: row;
+  }
+  .langscript {
+    width: 15%;
+    display: block;
+  }
+  .lang1,
+  form {
+    width: 40%;
+  }
+  .lang2,
+  .languagesection,
+  form input,
+  form textarea,
+  form > div,
+  .expsection,
+  .work {
+    width: 100%;
+  }
+  .contact-2 h1 {
+    width: 30%;
+  }
+  .contact-2 p {
+    width: 60%;
+  }
 }
